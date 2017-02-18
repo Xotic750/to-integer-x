@@ -41,24 +41,27 @@
  * `es6.shim.js` provides compatibility shims so that legacy JavaScript engines
  * behave as closely as possible to ECMAScript 6 (Harmony).
  *
- * @version 1.0.6
+ * @version 1.1.0
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
  * @module to-integer-x
  */
 
-/*jslint maxlen:80, es6:true, white:true */
+/* jslint maxlen:80, es6:true, white:true */
 
-/*jshint bitwise:true, camelcase:true, curly:true, eqeqeq:true, forin:true,
-  freeze:true, futurehostile:true, latedef:true, newcap:true, nocomma:true,
-  nonbsp:true, singleGroups:true, strict:true, undef:true, unused:true,
-  es3:true, esnext:true, plusplus:true, maxparams:1, maxdepth:1,
-  maxstatements:7, maxcomplexity:4 */
+/* jshint bitwise:true, camelcase:true, curly:true, eqeqeq:true, forin:true,
+   freeze:true, futurehostile:true, latedef:true, newcap:true, nocomma:true,
+   nonbsp:true, singleGroups:true, strict:true, undef:true, unused:true,
+   es3:true, esnext:true, plusplus:true, maxparams:1, maxdepth:1,
+   maxstatements:7, maxcomplexity:4 */
 
-/*global module */
+/* eslint strict: 1, max-statements: 1 */
 
-;(function () {
+/* global module */
+
+;(function () { // eslint-disable-line no-extra-semi
+
   'use strict';
 
   var $Number = Number;
@@ -67,6 +70,7 @@
   var $sign = Math.sign;
   var $floor = Math.floor;
   var $abs = Math.abs;
+  var zero = 0;
 
   /**
    * Converts `value` to an integer.
@@ -83,9 +87,9 @@
   module.exports = function toInteger(value) {
     var number = $Number(value);
     if ($isNaN(number)) {
-      return 0;
+      return zero;
     }
-    if (number === 0 || !$isFinite(number)) {
+    if (number === zero || !$isFinite(number)) {
       return number;
     }
     return $sign(number) * $floor($abs(number));
