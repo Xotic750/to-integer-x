@@ -24,6 +24,8 @@
  *
  * toInteger converts 'argument' to an integral numeric value.
  *
+ * Requires ES3 or above.
+ *
  * @see {@link http://www.ecma-international.org/ecma-262/6.0/#sec-tointeger|7.1.4 ToInteger ( argument )}
  *
  * @version 1.1.2
