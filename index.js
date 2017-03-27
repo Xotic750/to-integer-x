@@ -22,13 +22,13 @@
  * alt="npm version" height="18">
  * </a>
  *
- * toInteger converts 'argument' to an integral numeric value.
+ * ES6-compliant shim for toInteger.
  *
  * Requires ES3 or above.
  *
  * @see {@link http://www.ecma-international.org/ecma-262/6.0/#sec-tointeger|7.1.4 ToInteger ( argument )}
  *
- * @version 1.1.2
+ * @version 1.1.3
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}

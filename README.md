@@ -23,12 +23,12 @@ alt="devDependency status" height="18"/>
 alt="npm version" height="18">
 </a>
 
-toInteger converts 'argument' to an integral numeric value.
+ES6-compliant shim for toInteger.
 
 Requires ES3 or above.
 
 **See**: [7.1.4 ToInteger ( argument )](http://www.ecma-international.org/ecma-262/6.0/#sec-tointeger)  
-**Version**: 1.1.2  
+**Version**: 1.1.3  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
