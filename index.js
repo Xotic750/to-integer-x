@@ -28,7 +28,7 @@
  *
  * @see {@link http://www.ecma-international.org/ecma-262/6.0/#sec-tointeger|7.1.4 ToInteger ( argument )}
  *
- * @version 1.1.3
+ * @version 1.2.0
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
@@ -60,7 +60,7 @@
    * toInteger(Infinity); // 1.7976931348623157e+308
    * toInteger('3'); // 3
    */
-  module.exports = function toInteger(value) {
+  module.exports = function ToInteger(value) {
     var number = Number(value);
     if ($isNaN(number)) {
       return 0;
