@@ -24,7 +24,7 @@
 ToInteger converts 'argument' to an integral numeric value.
 
 **See**: [7.1.4 ToInteger ( argument )](http://www.ecma-international.org/ecma-262/6.0/#sec-tointeger)  
-**Version**: 1.4.0  
+**Version**: 2.0.0  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
