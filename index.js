@@ -1,7 +1,7 @@
 /**
  * @file ToInteger converts 'argument' to an integral numeric value.
  * @see {@link http://www.ecma-international.org/ecma-262/6.0/#sec-tointeger|7.1.4 ToInteger ( argument )}
- * @version 2.0.0
+ * @version 2.0.1
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
@@ -11,7 +11,7 @@
 'use strict';
 
 var toNumber = require('to-number-x');
-var numberIsNaN = require('is-nan');
+var numberIsNaN = require('is-nan-x');
 var numberIsFinite = require('is-finite-x');
 var mathSign = require('math-sign-x');
 
@@ -28,7 +28,7 @@ var mathSign = require('math-sign-x');
  * toInteger(Infinity); // 1.7976931348623157e+308
  * toInteger('3'); // 3
  */
-module.exports = function ToInteger(value) {
+module.exports = function toInteger(value) {
   var number = toNumber(value);
   if (numberIsNaN(number)) {
     return 0;
