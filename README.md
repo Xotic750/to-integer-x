@@ -24,16 +24,28 @@
 ToInteger converts 'argument' to an integral numeric value.
 
 **See**: [7.1.4 ToInteger ( argument )](http://www.ecma-international.org/ecma-262/6.0/#sec-tointeger)  
-**Version**: 2.1.0  
+**Version**: 3.0.0  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
-<a name="exp_module_to-integer-x--module.exports"></a>
 
-### `module.exports(value)` ⇒ <code>number</code> ⏏
-Converts `value` to an integer.
+* [to-integer-x](#module_to-integer-x)
+    * [`.toInteger`](#module_to-integer-x.toInteger)
+    * [`.toInteger2016`](#module_to-integer-x.toInteger2016) ⇒ <code>number</code>
+    * [`.toInteger2018`](#module_to-integer-x.toInteger2018) ⇒ <code>number</code>
 
-**Kind**: Exported function  
+<a name="module_to-integer-x.toInteger"></a>
+
+### `to-integer-x.toInteger`
+Reference to toInteger2018.
+
+**Kind**: static property of [<code>to-integer-x</code>](#module_to-integer-x)  
+<a name="module_to-integer-x.toInteger2016"></a>
+
+### `to-integer-x.toInteger2016` ⇒ <code>number</code>
+Converts `value` to an integer. (ES2016)
+
+**Kind**: static property of [<code>to-integer-x</code>](#module_to-integer-x)  
 **Returns**: <code>number</code> - Returns the converted integer.  
 
 | Param | Type | Description |
@@ -42,7 +54,27 @@ Converts `value` to an integer.
 
 **Example**  
 ```js
-var toInteger = require('to-integer-x');
+var toInteger = require('to-integer-x').toInteger2016;
+toInteger(3); // 3
+toInteger(Number.MIN_VALUE); // 0
+toInteger(Infinity); // 1.7976931348623157e+308
+toInteger('3'); // 3
+```
+<a name="module_to-integer-x.toInteger2018"></a>
+
+### `to-integer-x.toInteger2018` ⇒ <code>number</code>
+Converts `value` to an integer. (ES2018)
+
+**Kind**: static property of [<code>to-integer-x</code>](#module_to-integer-x)  
+**Returns**: <code>number</code> - Returns the converted integer.  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| value | <code>\*</code> | The value to convert. |
+
+**Example**  
+```js
+var toInteger = require('to-integer-x').toInteger2018;
 toInteger(3); // 3
 toInteger(Number.MIN_VALUE); // 0
 toInteger(Infinity); // 1.7976931348623157e+308
