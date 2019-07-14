@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2015-2017",
-  "date": "2019-07-14T21:12:18.272Z",
+  "date": "2019-07-14T21:49:50.578Z",
   "describe": "",
   "description": "ToInteger converts 'argument' to an integral numeric value.",
   "file": "to-integer-x.js",
-  "hash": "d6021547420112ac1b58",
+  "hash": "3c51a87bef069b102f3e",
   "license": "MIT",
-  "version": "4.0.3"
+  "version": "4.0.4"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -321,7 +321,7 @@ __webpack_require__.r(__webpack_exports__);
 var is_symbol = __webpack_require__(0);
 var is_symbol_default = /*#__PURE__*/__webpack_require__.n(is_symbol);
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/attempt-x/dist/attempt-x.esm.js
+// CONCATENATED MODULE: ./node_modules/attempt-x/dist/attempt-x.esm.js
 /**
  * This method attempts to invoke the function, returning either the result or
  * the caught error object. Any additional arguments are provided to the
@@ -350,10 +350,9 @@ function attempt(fn) {
     };
   }
 }
-;
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/has-symbol-support-x/dist/has-symbol-support-x.esm.js
+// CONCATENATED MODULE: ./node_modules/has-symbol-support-x/dist/has-symbol-support-x.esm.js
 var _this = undefined;
 
 function _newArrowCheck(innerThis, boundThis) { if (innerThis !== boundThis) { throw new TypeError("Cannot instantiate an arrow function"); } }
@@ -376,7 +375,7 @@ var hasSymbolSupport = attempt(function () {
 /* harmony default export */ var has_symbol_support_x_esm = (hasSymbolSupport.threw === false && hasSymbolSupport.value === true);
 
 
-// EXTERNAL MODULE: ./node_modules/to-number-x/node_modules/is-primitive/index.js
+// EXTERNAL MODULE: ./node_modules/is-primitive/index.js
 var is_primitive = __webpack_require__(1);
 var is_primitive_default = /*#__PURE__*/__webpack_require__.n(is_primitive);
 
@@ -384,7 +383,7 @@ var is_primitive_default = /*#__PURE__*/__webpack_require__.n(is_primitive);
 var is_date_object = __webpack_require__(2);
 var is_date_object_default = /*#__PURE__*/__webpack_require__.n(is_date_object);
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/to-boolean-x/dist/to-boolean-x.esm.js
+// CONCATENATED MODULE: ./node_modules/to-boolean-x/dist/to-boolean-x.esm.js
 /**
  * The abstract operation ToBoolean converts argument to a value of type Boolean.
  *
@@ -396,7 +395,7 @@ function toBoolean(value) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/is-falsey-x/dist/is-falsey-x.esm.js
+// CONCATENATED MODULE: ./node_modules/is-falsey-x/dist/is-falsey-x.esm.js
 
 /**
  * This method tests if a given value is falsey.
@@ -410,7 +409,7 @@ function isFalsey(value) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/to-string-tag-x/dist/to-string-tag-x.esm.js
+// CONCATENATED MODULE: ./node_modules/to-string-tag-x/dist/to-string-tag-x.esm.js
 var nativeObjectToString = {}.toString;
 /**
  * The `toStringTag` method returns "[object type]", where type is the
@@ -433,7 +432,7 @@ function toStringTag(value) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/has-to-string-tag-x/dist/has-to-string-tag-x.esm.js
+// CONCATENATED MODULE: ./node_modules/has-to-string-tag-x/dist/has-to-string-tag-x.esm.js
 
 
 /**
@@ -448,7 +447,7 @@ function toStringTag(value) {
 is_symbol_default()(Symbol.toStringTag));
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/is-nil-x/dist/is-nil-x.esm.js
+// CONCATENATED MODULE: ./node_modules/is-nil-x/dist/is-nil-x.esm.js
 /**
  * Checks if `value` is `null` or `undefined`.
  *
@@ -461,7 +460,7 @@ function isNil(value) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/require-object-coercible-x/dist/require-object-coercible-x.esm.js
+// CONCATENATED MODULE: ./node_modules/require-object-coercible-x/dist/require-object-coercible-x.esm.js
 
 /**
  * The abstract operation RequireObjectCoercible throws an error if argument
@@ -481,7 +480,7 @@ function requireObjectCoercible(value) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/to-string-x/dist/to-string-x.esm.js
+// CONCATENATED MODULE: ./node_modules/to-string-x/dist/to-string-x.esm.js
 
 var ERROR_MESSAGE = 'Cannot convert a Symbol value to a string';
 var castString = ERROR_MESSAGE.constructor;
@@ -502,7 +501,7 @@ function ToString(value) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/require-coercible-to-string-x/dist/require-coercible-to-string-x.esm.js
+// CONCATENATED MODULE: ./node_modules/require-coercible-to-string-x/dist/require-coercible-to-string-x.esm.js
 
 
 /**
@@ -518,7 +517,7 @@ function requireCoercibleToString(value) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/white-space-x/dist/white-space-x.esm.js
+// CONCATENATED MODULE: ./node_modules/white-space-x/dist/white-space-x.esm.js
 /**
  * A record of a white space character.
  *
@@ -831,7 +830,7 @@ var string2018 = stringES2018;
 var string2016 = stringES2016;
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/trim-left-x/dist/trim-left-x.esm.js
+// CONCATENATED MODULE: ./node_modules/trim-left-x/dist/trim-left-x.esm.js
 
 
 var EMPTY_STRING = '';
@@ -863,7 +862,7 @@ function trimLeft2018(string) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/trim-right-x/dist/trim-right-x.esm.js
+// CONCATENATED MODULE: ./node_modules/trim-right-x/dist/trim-right-x.esm.js
 
 
 var trim_right_x_esm_EMPTY_STRING = '';
@@ -895,7 +894,7 @@ function trimRight2018(string) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/trim-x/dist/trim-x.esm.js
+// CONCATENATED MODULE: ./node_modules/trim-x/dist/trim-x.esm.js
 
 
 /**
@@ -924,7 +923,7 @@ function trim2018(string) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/normalize-space-x/dist/normalize-space-x.esm.js
+// CONCATENATED MODULE: ./node_modules/normalize-space-x/dist/normalize-space-x.esm.js
 
 
 var SPACE = ' ';
@@ -959,7 +958,7 @@ function normalizeSpace2018(string) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/replace-comments-x/dist/replace-comments-x.esm.js
+// CONCATENATED MODULE: ./node_modules/replace-comments-x/dist/replace-comments-x.esm.js
 
 
 var replace_comments_x_esm_EMPTY_STRING = '';
@@ -980,7 +979,7 @@ function replaceComments(string, replacement) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/is-function-x/dist/is-function-x.esm.js
+// CONCATENATED MODULE: ./node_modules/is-function-x/dist/is-function-x.esm.js
 var is_function_x_esm_this = undefined;
 
 function is_function_x_esm_newArrowCheck(innerThis, boundThis) { if (innerThis !== boundThis) { throw new TypeError("Cannot instantiate an arrow function"); } }
@@ -1061,7 +1060,7 @@ function isFunction(value, allowClass) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/to-primitive-x/dist/to-primitive-x.esm.js
+// CONCATENATED MODULE: ./node_modules/to-primitive-x/dist/to-primitive-x.esm.js
 
 
 
@@ -1226,7 +1225,7 @@ function toPrimitive(input, preferredType) {
 }
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/nan-x/dist/nan-x.esm.js
+// CONCATENATED MODULE: ./node_modules/nan-x/dist/nan-x.esm.js
 /**
  * The constant NaN derived mathematically by 0 / 0.
  *
@@ -1235,7 +1234,7 @@ function toPrimitive(input, preferredType) {
 /* harmony default export */ var nan_x_esm = (0 / 0);
 
 
-// CONCATENATED MODULE: ./node_modules/to-number-x/node_modules/parse-int-x/dist/parse-int-x.esm.js
+// CONCATENATED MODULE: ./node_modules/parse-int-x/dist/parse-int-x.esm.js
 
 
 
