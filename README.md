@@ -21,62 +21,57 @@
 <a name="module_to-integer-x"></a>
 
 ## to-integer-x
+
 ToInteger converts 'argument' to an integral numeric value.
 
-**See**: [7.1.4 ToInteger ( argument )](http://www.ecma-international.org/ecma-262/6.0/#sec-tointeger)  
-**Version**: 3.0.0  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
+- [to-integer-x](#module_to-integer-x)
 
-* [to-integer-x](#module_to-integer-x)
-    * [`.toInteger`](#module_to-integer-x.toInteger)
-    * [`.toInteger2016`](#module_to-integer-x.toInteger2016) ⇒ <code>number</code>
-    * [`.toInteger2018`](#module_to-integer-x.toInteger2018) ⇒ <code>number</code>
+  - [`.toInteger2016`](#module_to-integer-x.toInteger2016) ⇒ <code>number</code>
 
-<a name="module_to-integer-x.toInteger"></a>
-
-### `to-integer-x.toInteger`
-Reference to toInteger2018.
-
-**Kind**: static property of [<code>to-integer-x</code>](#module_to-integer-x)  
 <a name="module_to-integer-x.toInteger2016"></a>
 
 ### `to-integer-x.toInteger2016` ⇒ <code>number</code>
+
 Converts `value` to an integer. (ES2016)
 
 **Kind**: static property of [<code>to-integer-x</code>](#module_to-integer-x)  
-**Returns**: <code>number</code> - Returns the converted integer.  
+**Returns**: <code>number</code> - Returns the converted integer.
 
-| Param | Type | Description |
-| --- | --- | --- |
+| Param | Type            | Description           |
+| ----- | --------------- | --------------------- |
 | value | <code>\*</code> | The value to convert. |
 
-**Example**  
-```js
-var toInteger = require('to-integer-x').toInteger2016;
-toInteger(3); // 3
-toInteger(Number.MIN_VALUE); // 0
-toInteger(Infinity); // 1.7976931348623157e+308
-toInteger('3'); // 3
-```
-<a name="module_to-integer-x.toInteger2018"></a>
+**Example**
 
-### `to-integer-x.toInteger2018` ⇒ <code>number</code>
+```js
+import {toInteger2016} from 'to-integer-x';
+
+console.log(toInteger2016(3)); // 3
+console.log(toInteger2016(Number.MIN_VALUE)); // 0
+console.log(toInteger2016(Infinity)); // 1.7976931348623157e+308
+console.log(toInteger2016('3')); // 3
+```
+
+<a name="module_to-integer-x"></a>
+
+### `to-integer-x` ⇒ <code>number</code>
+
 Converts `value` to an integer. (ES2018)
 
 **Kind**: static property of [<code>to-integer-x</code>](#module_to-integer-x)  
-**Returns**: <code>number</code> - Returns the converted integer.  
+**Returns**: <code>number</code> - Returns the converted integer.
 
-| Param | Type | Description |
-| --- | --- | --- |
+| Param | Type            | Description           |
+| ----- | --------------- | --------------------- |
 | value | <code>\*</code> | The value to convert. |
 
-**Example**  
+**Example**
+
 ```js
-var toInteger = require('to-integer-x').toInteger2018;
-toInteger(3); // 3
-toInteger(Number.MIN_VALUE); // 0
-toInteger(Infinity); // 1.7976931348623157e+308
-toInteger('3'); // 3
+import toInteger from 'to-integer-x';
+
+console.log(toInteger(3)); // 3
+console.log(toInteger(Number.MIN_VALUE)); // 0
+console.log(toInteger(Infinity)); // 1.7976931348623157e+308
+console.log(toInteger('3')); // 3
 ```
