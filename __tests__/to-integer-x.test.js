@@ -26,12 +26,11 @@ describe('toInteger', function() {
   describe('toInteger2016', function() {
     it('basic', function() {
       expect.assertions(15);
-      /* eslint-disable-next-line compat/compat */
+
       expect(Object.is(0, toInteger2016(NaN))).toBe(true, 'NaN coerces to +0');
       [-0, 0, Infinity, 42].forEach(function(num) {
-        /* eslint-disable-next-line compat/compat */
         expect(Object.is(num, toInteger2016(num))).toBe(true, `${num} returns itself`);
-        /* eslint-disable-next-line compat/compat */
+
         expect(Object.is(-num, toInteger2016(-num))).toBe(true, `-${num} returns itself`);
       });
       expect(toInteger2016('0b10')).toBe(2, 'binary returns 2');
@@ -57,12 +56,11 @@ describe('toInteger', function() {
   describe('toInteger2018', function() {
     it('basic', function() {
       expect.assertions(16);
-      /* eslint-disable-next-line compat/compat */
+
       expect(Object.is(0, toInteger(NaN))).toBe(true, 'NaN coerces to +0');
       [-0, 0, Infinity, 42].forEach(function(num) {
-        /* eslint-disable-next-line compat/compat */
         expect(Object.is(num, toInteger(num))).toBe(true, `${num} returns itself`);
-        /* eslint-disable-next-line compat/compat */
+
         expect(Object.is(-num, toInteger(-num))).toBe(true, `-${num} returns itself`);
       });
       expect(toInteger('0b10')).toBe(2, 'binary returns 2');
