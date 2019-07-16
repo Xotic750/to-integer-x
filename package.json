@@ -1,6 +1,6 @@
 {
   "name": "to-integer-x",
-  "version": "4.0.9",
+  "version": "4.0.10",
   "description": "ToInteger converts 'argument' to an integral numeric value.",
   "homepage": "https://github.com/Xotic750/to-integer-x",
   "author": {
@@ -48,10 +48,10 @@
     "url": "https://github.com/Xotic750/to-integer-x/issues"
   },
   "dependencies": {
-    "is-finite-x": "^4.0.7",
-    "is-nan-x": "^2.0.10",
-    "math-sign-x": "^4.0.9",
-    "to-number-x": "^3.0.9"
+    "is-finite-x": "^4.0.8",
+    "is-nan-x": "^2.0.11",
+    "math-sign-x": "^4.0.10",
+    "to-number-x": "^3.0.10"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
