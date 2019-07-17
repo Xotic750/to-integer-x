@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2015-2017",
-  "date": "2019-07-17T16:48:25.116Z",
+  "date": "2019-07-17T17:27:45.277Z",
   "describe": "",
   "description": "ToInteger converts 'argument' to an integral numeric value.",
   "file": "to-integer-x.js",
   "hash": "68a038ea273372286787",
   "license": "MIT",
-  "version": "4.0.12"
+  "version": "4.0.13"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
