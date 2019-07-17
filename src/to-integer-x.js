@@ -31,7 +31,7 @@ export function toInteger2016(value) {
  * @param {*} value - The value to convert.
  * @returns {number} Returns the converted integer.
  */
-export default function toInteger2018(value) {
+const toInteger2018 = function toInteger2018(value) {
   const number = toNumber(value);
 
   if (numberIsNaN(number)) {
@@ -43,4 +43,6 @@ export default function toInteger2018(value) {
   }
 
   return mathSign(number) * floor(abs(number));
-}
+};
+
+export default toInteger2018;

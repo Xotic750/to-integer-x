@@ -31,7 +31,7 @@ export function toInteger2016(value) {
  * @returns {number} Returns the converted integer.
  */
 
-export default function toInteger2018(value) {
+var toInteger2018 = function toInteger2018(value) {
   var number = toNumber(value);
 
   if (numberIsNaN(number)) {
@@ -43,6 +43,8 @@ export default function toInteger2018(value) {
   }
 
   return mathSign(number) * floor(abs(number));
-}
+};
+
+export default toInteger2018;
 
 //# sourceMappingURL=to-integer-x.esm.js.map
