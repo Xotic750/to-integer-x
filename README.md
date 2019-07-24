@@ -24,39 +24,15 @@
 
 ToInteger converts 'argument' to an integral numeric value.
 
-- [to-integer-x](#module_to-integer-x)
+<a name="exp_module_math-trim-x.exports"></a>
 
-  - [`.toInteger2016`](#module_to-integer-x.toInteger2016) ⇒ <code>number</code>
-
-<a name="module_to-integer-x.toInteger2016"></a>
-
-### `to-integer-x.toInteger2016` ⇒ <code>number</code>
-
-Converts `value` to an integer. (ES2016)
-
-**Kind**: static property of [<code>to-integer-x</code>](#module_to-integer-x)  
-**Returns**: <code>number</code> - Returns the converted integer.
-
-| Param | Type            | Description           |
-| ----- | --------------- | --------------------- |
-| value | <code>\*</code> | The value to convert. |
-
-**Example**
-
-```js
-import {toInteger2016} from 'to-integer-x';
-
-console.log(toInteger2016(3)); // 3
-console.log(toInteger2016(Number.MIN_VALUE)); // 0
-console.log(toInteger2016(Infinity)); // 1.7976931348623157e+308
-console.log(toInteger2016('3')); // 3
-```
+### `module.exports(string)` ⇒ <code>number</code> ⏏
 
 <a name="module_to-integer-x"></a>
 
 ### `to-integer-x` ⇒ <code>number</code>
 
-Converts `value` to an integer. (ES2018)
+Converts `value` to an integer. (ES2019)
 
 **Kind**: static property of [<code>to-integer-x</code>](#module_to-integer-x)  
 **Returns**: <code>number</code> - Returns the converted integer.
