@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2015-2017",
-  "date": "2019-07-27T13:39:06.715Z",
+  "date": "2019-07-27T14:09:43.872Z",
   "describe": "",
   "description": "ToInteger converts 'argument' to an integral numeric value.",
   "file": "to-integer-x.js",
-  "hash": "6e678a7c9223edcd387b",
+  "hash": "4afa921091f99d06ad84",
   "license": "MIT",
-  "version": "4.0.27"
+  "version": "4.0.28"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -1253,8 +1253,6 @@ var binaryRadix = 2;
 var octalRadix = 8;
 var testCharsCount = 2;
 var to_number_x_esm_ERROR_MESSAGE = 'Cannot convert a Symbol value to a number';
-/** @type {NumberConstructor} */
-
 var to_number_x_esm_castNumber = testCharsCount.constructor;
 var pStrSlice = to_number_x_esm_ERROR_MESSAGE.slice;
 var binaryRegex = /^0b[01]+$/i;
