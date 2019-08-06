@@ -35,6 +35,12 @@
 <img src="https://bettercodehub.com/edge/badge/Xotic750/to-integer-x?branch=master"
   alt="bettercodehub score" height="18">
 </a>
+<a
+  href="https://coveralls.io/github/Xotic750/to-integer-x?branch=master"
+  title="Coverage Status">
+<img src="https://coveralls.io/repos/github/Xotic750/to-integer-x/badge.svg?branch=master"
+  alt="Coverage Status" height="18">
+</a>
 
 <a name="module_to-integer-x"></a>
 
