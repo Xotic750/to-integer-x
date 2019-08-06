@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2015-2017",
-  "date": "2019-08-04T19:27:40.224Z",
+  "date": "2019-08-06T00:27:38.770Z",
   "describe": "",
   "description": "ToInteger converts 'argument' to an integral numeric value.",
   "file": "to-integer-x.js",
